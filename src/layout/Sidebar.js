@@ -5,7 +5,7 @@
 import React, { useState } from "react";
 import { HomeIcon, SearchIcon, LibraryIcon, VectorIcon, ButtonSearchIcon} from "../icons/Icons";
 import Logo from '../images/Vector.png';
-import { allPlaylists } from "./users";
+import { allPlaylists } from "./allPlaylists";
 
 const Sidebar = () => {
 

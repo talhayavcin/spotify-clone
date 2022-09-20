@@ -40,39 +40,39 @@ const Content = () => {
       <div className="px-8 py-5">
         <div className="grid gap-y-8">
           <section>
-            <header className="flex items-center justify-between mb-4">
+            <header className="flex items-center justify-between mb-3 -mt-3">
               <h3 className="text-2xl text-white">Yakında Çalanlar</h3>
             </header>
             <div className="grid grid-cols-5 gap-x-6">
-              <a aria-current="page" className="bg-black-footer p-4 rounded group-active" href="#">
+              <a aria-current="page" className="bg-black-footer hover:bg-black-play p-4 rounded group-active" href="#">
                 <div className="pt-[100%] relative mb-4">
                   <img src={CoverPicture} alt="pic1" className="absolute inset-0 object-cover w-full h-full rounded" />
                 </div>
                 <h6 className="overflow-hidden overflow-ellipsis text-base ml-3 text-white">4 - 2</h6>
                 <p className="line-clamp-2 text-link text-sm mt-1 ml-3 text-white opacity-60">Çalma Listesi Açıklaması</p>
               </a>
-              <a aria-current="page" className="bg-black-footer p-4 rounded group-active" href="#">
+              <a aria-current="page" className="bg-black-footer hover:bg-black-play p-4 rounded group-active" href="#">
                 <div className="pt-[100%] relative mb-4">
                   <img src={CoverPicture2} alt="pic1" className="absolute inset-0 object-cover w-full h-full rounded" />
                 </div>
                 <h6 className="overflow-hidden overflow-ellipsis text-base ml-3 text-white">Arneo Tunes - Winter 2020</h6>
                 <p className="line-clamp-2 text-link text-sm mt-1 ml-3 text-white opacity-60">Çalma Listesi Açıklaması</p>
               </a>
-              <a aria-current="page" className="bg-black-footer p-4 rounded group-active" href="#">
+              <a aria-current="page" className="bg-black-footer hover:bg-black-play p-4 rounded group-active" href="#">
                 <div className="pt-[100%] relative mb-4">
                   <img src={CoverPicture3} alt="pic1" className="absolute inset-0 object-cover w-full h-full rounded" />
                 </div>
                 <h6 className="overflow-hidden overflow-ellipsis text-base ml-3 text-white">2019'un En İyileri</h6>
                 <p className="line-clamp-2 text-link text-sm mt-1 ml-3 text-white opacity-60">Çalma Listesi Açıklaması</p>
               </a>
-              <a aria-current="page" className="bg-black-footer p-4 rounded group-active" href="#">
+              <a aria-current="page" className="bg-black-footer hover:bg-black-play p-4 rounded group-active" href="#">
                 <div className="pt-[100%] relative mb-4">
                   <img src={CoverPicture4} alt="pic1" className="absolute inset-0 object-cover w-full h-full rounded" />
                 </div>
                 <h6 className="overflow-hidden overflow-ellipsis text-base ml-3 text-white">AdFab Open Space</h6>
                 <p className="line-clamp-2 text-link text-sm mt-1 ml-3 text-white opacity-60">Çalma Listesi Açıklaması</p>
               </a>
-              <a aria-current="page" className="bg-black-footer p-4 rounded group-active" href="#">
+              <a aria-current="page" className="bg-black-footer hover:bg-black-play p-4 rounded group-active" href="#">
                 <div className="pt-[100%] relative mb-4">
                   <img src={CoverPicture5} alt="pic1" className="absolute inset-0 object-cover w-full h-full rounded" />
                 </div>
@@ -85,35 +85,35 @@ const Content = () => {
               <p className="text-white opacity-60 text-sm">Sevdiğin her şeyden biraz dinle.</p>
             </header>
             <div className="grid grid-cols-5 gap-x-6">
-              <a aria-current="page" className="bg-black-footer p-4 rounded group-active" href="#">
+              <a aria-current="page" className="bg-black-footer hover:bg-black-play p-4 rounded group-active" href="#">
                 <div className="pt-[100%] relative mb-4">
                   <img src={CoverPicture4} alt="pic1" className="absolute inset-0 object-cover w-full h-full rounded" />
                 </div>
                 <h6 className="overflow-hidden overflow-ellipsis text-base ml-3 text-white">4 - 2</h6>
                 <p className="line-clamp-2 text-link text-sm mt-1 ml-3 text-white opacity-60">Çalma Listesi Açıklaması</p>
               </a>
-              <a aria-current="page" className="bg-black-footer p-4 rounded group-active" href="#">
+              <a aria-current="page" className="bg-black-footer hover:bg-black-play p-4 rounded group-active" href="#">
                 <div className="pt-[100%] relative mb-4">
                   <img src={CoverPicture7} alt="pic1" className="absolute inset-0 object-cover w-full h-full rounded" />
                 </div>
                 <h6 className="overflow-hidden overflow-ellipsis text-base ml-3 text-white">Arneo Tunes - Winter 2020</h6>
                 <p className="line-clamp-2 text-link text-sm mt-1 ml-3 text-white opacity-60">Çalma Listesi Açıklaması</p>
               </a>
-              <a aria-current="page" className="bg-black-footer p-4 rounded group-active" href="#">
+              <a aria-current="page" className="bg-black-footer hover:bg-black-play p-4 rounded group-active" href="#">
                 <div className="pt-[100%] relative mb-4">
                   <img src={CoverPicture8} alt="pic1" className="absolute inset-0 object-cover w-full h-full rounded" />
                 </div>
                 <h6 className="overflow-hidden overflow-ellipsis text-base ml-3 text-white">2019'un En İyileri</h6>
                 <p className="line-clamp-2 text-link text-sm mt-1 ml-3 text-white opacity-60">Çalma Listesi Açıklaması</p>
               </a>
-              <a aria-current="page" className="bg-black-footer p-4 rounded group-active" href="#">
+              <a aria-current="page" className="bg-black-footer hover:bg-black-play p-4 rounded group-active" href="#">
                 <div className="pt-[100%] relative mb-4">
                   <img src={CoverPicture4} alt="pic1" className="absolute inset-0 object-cover w-full h-full rounded" />
                 </div>
                 <h6 className="overflow-hidden overflow-ellipsis text-base ml-3 text-white">AdFab Open Space</h6>
                 <p className="line-clamp-2 text-link text-sm mt-1 ml-3 text-white opacity-60">Çalma Listesi Açıklaması</p>
               </a>
-              <a aria-current="page" className="bg-black-footer p-4 rounded group-active" href="#">
+              <a aria-current="page" className="bg-black-footer hover:bg-black-play p-4 rounded group-active" href="#">
                 <div className="pt-[100%] relative mb-4">
                   <img src={CoverPicture5} alt="pic1" className="absolute inset-0 object-cover w-full h-full rounded" />
                 </div>
