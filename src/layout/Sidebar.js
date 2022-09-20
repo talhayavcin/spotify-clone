@@ -46,8 +46,8 @@ const Sidebar = () => {
           <label for="search-input" className="text-black w-12 h-10 flex items-center justify-center absolute top-0 left-0">
             <ButtonSearchIcon/>
           </label>
-          <input type="text" id="search-input" className="h-10 pl-12 outline-none text-white font-small bg-neutral-700 rounded-3xl text-sm placeholder-black/50 w-40" placeholder="Ara"/>
-          <label className="text-black w-12 h-10 flex items-center justify-end absolute top-0 left-0">
+          <input type="text" id="search-input" className="h-10 pl-12 outline-none text-white font-small bg-white bg-opacity-20 rounded-3xl text-sm placeholder-black/50 w-40" placeholder="Ara"/>
+          <label className="text-black w-12 h-10 flex items-center  justify-end absolute top-0 ml-24">
             <VectorIcon/>
           </label>
         </div>
