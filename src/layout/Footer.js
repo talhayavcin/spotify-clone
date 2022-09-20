@@ -31,7 +31,7 @@ const Footer = () => {
             <StickIcon/><BackMusic />
           </button>
           <button class="w-8 h-8  flex items-center justify-center rounded-full border-gray-700 hover:scale-[1.06]">
-            <PlayMusic className="" />
+            <PlayMusic />
           </button>
           <button class="w-8 h-8 flex items-center justify-center  hover:text-opacity-100">
             <ForwardMusic /><StickIcon/>
